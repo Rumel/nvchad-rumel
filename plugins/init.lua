@@ -5,6 +5,6 @@ return {
       require "custom.plugins.lspconfig"
     end,
   },
-  ["github/copilot.vim"] = {
-  }
+  ["github/copilot.vim"] = {},
+  ["APZelos/blamer.nvim"] = {},
 }

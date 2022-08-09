@@ -3,7 +3,8 @@ local M = {}
 M.nvimtree = {
   open_on_setup = true,
   git = {
-    enable = true
+    enable = true,
+    ignore = false,
   },
  renderer = {
     highlight_git = true,
