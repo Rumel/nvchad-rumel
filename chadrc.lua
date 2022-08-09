@@ -13,7 +13,7 @@ M.plugins = {
     ["williamboman/mason.nvim"] = override.mason,
   },
 
-  user = require "custom.plugins"
+  user = require "custom.plugins",
 }
 
 M.ui = {

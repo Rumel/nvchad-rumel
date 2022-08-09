@@ -1,7 +1,6 @@
 local M = {}
 
 M.servers = {
-  "lua-language-server",
   "html",
   "cssls",
   "emmet_ls",
