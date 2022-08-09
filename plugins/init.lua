@@ -5,4 +5,6 @@ return {
       require "custom.plugins.lspconfig"
     end,
   },
+  ["github/copilot.vim"] = {
+  }
 }
