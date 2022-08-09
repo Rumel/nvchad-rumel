@@ -1,13 +1,13 @@
 local M = {}
 
 M.servers = {
-  "html",
-  "cssls",
-  "emmet_ls",
-  "jsonls",
-  "tsserver",
+  "html-lsp",
+  "css-lsp",
+  "emmet-ls",
+  "json-lsp",
+  "typescript-language-server",
   "solargraph",
-  "elixirls",
+  "elixir-ls",
 }
 
 return M
