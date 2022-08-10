@@ -7,4 +7,9 @@ return {
   },
   ["github/copilot.vim"] = {},
   ["APZelos/blamer.nvim"] = {},
+  ["folke/trouble.nvim"] = {
+    config = function()
+      require("trouble").setup {}
+    end,
+  }
 }
