@@ -32,7 +32,15 @@ M.treesitter = {
 }
 
 M.mason = {
-  ensure_installed = require("custom.lsp_servers").servers
+  ensure_installed = {
+    "html-lsp",
+    "css-lsp",
+    "emmet-ls",
+    "json-lsp",
+    "typescript-language-server",
+    "solargraph",
+    "elixir-ls",
+  }
 }
 
 return M
