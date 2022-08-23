@@ -15,4 +15,5 @@ return {
   ["folke/which-key.nvim"] = {
     disable = false,
   },
+  ["tpope/vim-rails"] = {}
 }
