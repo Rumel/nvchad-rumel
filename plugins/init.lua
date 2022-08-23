@@ -11,5 +11,8 @@ return {
     config = function()
       require("trouble").setup {}
     end,
-  }
+  },
+  ["folke/which-key.nvim"] = {
+    disable = false,
+  },
 }
