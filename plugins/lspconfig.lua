@@ -10,7 +10,7 @@ local servers = {
   "tsserver",
   "solargraph",
   "elixirls",
-} 
+}
 
 for _, lsp in ipairs(servers) do
 	lspconfig[lsp].setup({
