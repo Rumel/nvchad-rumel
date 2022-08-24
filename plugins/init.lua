@@ -15,5 +15,11 @@ return {
   ["folke/which-key.nvim"] = {
     disable = false,
   },
-  ["tpope/vim-rails"] = {}
+  ["tpope/vim-rails"] = {},
+  ["phaazon/hop.nvim"] ={
+    branch = 'v2',
+    config = function()
+      require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
+    end
+  }
 }
