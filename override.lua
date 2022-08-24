@@ -18,28 +18,41 @@ M.nvimtree = {
 
 M.treesitter = {
   ensure_installed = {
-    "vim",
-    "html",
+    "bash",
+    "c_sharp",
+    "clojure",
     "css",
+    "dockerfile",
+    "go",
+    "html",
+    "java",
     "javascript",
     "json",
-    "toml",
-    "markdown",
-    "bash",
     "lua",
+    "markdown",
+    "python",
     "ruby",
+    "rust",
+    "toml",
+    "typescript",
+    "vim",
   }
 }
 
 M.mason = {
   ensure_installed = {
-    "html-lsp",
+    "bash-language-server",
+    "clojure-lsp",
     "css-lsp",
-    "emmet-ls",
-    "json-lsp",
-    "typescript-language-server",
-    "solargraph",
+    "dockerfile-language-server",
     "elixir-ls",
+    "emmet-ls",
+    "gopls",
+    "html-lsp",
+    "json-lsp",
+    "omnisharp",
+    "solargraph",
+    "typescript-language-server",
   }
 }
 
