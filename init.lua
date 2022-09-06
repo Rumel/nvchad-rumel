@@ -10,4 +10,3 @@ vim.g.blamer_relative_time = 1
 
 vim.opt.incsearch = true
 vim.opt.number = true
-vim.opt.relativenumber = true
