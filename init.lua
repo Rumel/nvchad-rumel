@@ -8,3 +8,6 @@ vim.g.blamer_template = '<author>, <author-time> • <summary>'
 vim.g.blamer_date_format = '%m/%d/%y %I:%M %p'
 vim.g.blamer_relative_time = 1
 
+vim.opt.incsearch = true
+vim.opt.number = true
+vim.opt.relativenumber = true
