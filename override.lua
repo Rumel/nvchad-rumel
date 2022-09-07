@@ -51,6 +51,7 @@ M.mason = {
     "html-lsp",
     "json-lsp",
     "omnisharp",
+    "rubocop",
     "solargraph",
     "typescript-language-server",
   }
