@@ -29,6 +29,12 @@ M.hop = {-- normal mode (easymotion-like)
   }
 }
 
+M.neoclip = {
+  n = {
+    ["<Leader>fp"] = { ":lua require('telescope').extensions.neoclip.default()<CR>", "Open neoclip" }
+  }
+}
+
 M.trouble = {
   n = {
     ["<leader>xx"] = { "<cmd>Trouble<cr>", "Trouble" },

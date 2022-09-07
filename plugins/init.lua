@@ -21,5 +21,10 @@ return {
     config = function()
       require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
     end
+  },
+  ["AckslD/nvim-neoclip.lua"] = {
+    config = function()
+      require('neoclip').setup()
+    end
   }
 }
