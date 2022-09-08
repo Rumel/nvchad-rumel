@@ -42,6 +42,7 @@ M.treesitter = {
 M.mason = {
   ensure_installed = {
     "bash-language-server",
+    "black",
     "clojure-lsp",
     "css-lsp",
     "dockerfile-language-server",
@@ -51,6 +52,7 @@ M.mason = {
     "html-lsp",
     "json-lsp",
     "omnisharp",
+    "jedi-language-server",
     "rubocop",
     "solargraph",
     "typescript-language-server",

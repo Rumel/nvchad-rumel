@@ -11,6 +11,7 @@ local servers = {
   "emmet_ls",
   "gopls",
   "html",
+  "jedi_language_server",
   "jsonls",
   "omnisharp",
   "solargraph",
