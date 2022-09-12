@@ -10,6 +10,9 @@ vim.g.blamer_relative_time = 1
 
 vim.opt.incsearch = true
 vim.opt.number = true
+vim.opt.foldmethod = "indent"
+vim.opt.foldlevel = 20
+vim.opt.foldlevelstart = 20
 
 -- Highlight yanked portion briefly
 local yankGrp = vim.api.nvim_create_augroup("YankHighlight", { clear = true })
