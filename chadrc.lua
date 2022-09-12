@@ -17,7 +17,7 @@ M.plugins = {
 }
 
 M.ui = {
-  theme = "nightowl",
+  theme = "catppuccin",
 }
 
 M.mappings = require "custom.mappings"
