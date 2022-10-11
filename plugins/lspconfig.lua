@@ -7,14 +7,15 @@ local servers = {
   "clojure_lsp",
   "cssls",
   "dockerls",
-  "elixirls",
   "emmet_ls",
+  "eslint",
   "gopls",
   "html",
   "jedi_language_server",
   "jsonls",
   "omnisharp",
   "solargraph",
+  "sumneko_lua",
   "tsserver",
 }
 
@@ -24,3 +25,11 @@ for _, lsp in ipairs(servers) do
 		capabilities = capabilities,
 	})
 end
+
+DATA_PATH = vim.fn.stdpath('data')
+
+require'lspconfig'.elixirls.setup {
+  cmd = { DATA_PATH.."/mason/bin/elixir-ls" },
+  on_attach = on_attach,
+  capabilities = capabilities,
+}
