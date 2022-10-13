@@ -4,6 +4,9 @@ M.general = {
   i = {
     ["jj"] = { "<ESC>", "Alternative to <ESC>" },
   },
+  n = {
+    ["<Leader>pp"] = { ":lua print(require(\"core.utils\").load_config().ui.theme)<CR>", "Print out current theme" }
+  }
 }
 
 M.hop = {-- normal mode (easymotion-like)
